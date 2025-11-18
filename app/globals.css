@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+#bone-muscle {
+  background-image: url('/images/backpain.webp');
+}
+#metabolism-digestion {
+  background-image: url('/images/stomach.avif');
+  color: white;
+}
+#respiratory-skin {
+  background-color: #fff3e0;
+  background-image: url('/images/respiratory.jpg');
+  background-position: center;
+}
+#special-treatments {
+  background-color: #fce4ec;
+  background-image: url('/images/headache.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}

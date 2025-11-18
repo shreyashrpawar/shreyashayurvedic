@@ -13,10 +13,10 @@ export default function AyurvedicHospital() {
   }, []);
 
   const treatments = [
-    { category: "हाड व स्नायू संबंधित", items: ["गठिया", "मागदुखी", "घुडघ्याचे दुखणे", "सायकॅटिका", "मज्जासंस्था रोग"] },
-    { category: "चयापचय व पचन", items: ["मधुमेह", "थायरॉईड", "वजन कमी करणे", "वजन वाढवणे", "अम्लता", "बवासीर", "गॅस व अपचन"] },
-    { category: "श्वसन व त्वचा", items: ["खोकला व दम", "अलर्जि व सर्दी", "त्वचेचे रोग", "मुरुम व काळे डाग"] },
-    { category: "विशेष उपचार", items: ["लैंगिक आरोग्य", "महिला आरोग्य", "उंची वाढ", "बुद्धी व एकाग्रता", "डोकेदुखी", "पित्तज्वर (जॉन्डिस)", "मूत्रपिंड दगड"] }
+    { category: "हाड व स्नायू संबंधित", items: ["गठिया", "मागदुखी", "घुडघ्याचे दुखणे", "सायकॅटिका", "मज्जासंस्था रोग"], class: "bone-muscle" },
+    { category: "चयापचय व पचन", items: ["मधुमेह", "थायरॉईड", "वजन कमी करणे", "वजन वाढवणे", "अम्लता", "बवासीर", "गॅस व अपचन"], class: "metabolism-digestion" },
+    { category: "श्वसन व त्वचा", items: ["खोकला व दम", "अलर्जि व सर्दी", "त्वचेचे रोग", "मुरुम व काळे डाग"],class: "respiratory-skin" },
+    { category: "विशेष उपचार", items: ["लैंगिक आरोग्य", "महिला आरोग्य", "उंची वाढ", "बुद्धी व एकाग्रता", "डोकेदुखी", "पित्तज्वर (जॉन्डिस)", "मूत्रपिंड दगड"],class: "special-treatments" },
   ];
 
   const services = [
@@ -167,14 +167,14 @@ export default function AyurvedicHospital() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             {treatments.map((treatment, idx) => (
-              <div key={idx} className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300">
-                <h3 className="text-2xl font-bold text-emerald-800 mb-6 pb-4 border-b-2 border-emerald-200">
+              <div key={idx} id={treatment.class} className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-6 pb-4 border-b-2 border-emerald-200">
                   {treatment.category}
                 </h3>
                 <ul className="space-y-3">
                   {treatment.items.map((item, i) => (
-                    <li key={i} className="flex items-center gap-3 text-gray-700">
-                      <div className="w-2 h-2 bg-emerald-600 rounded-full"></div>
+                    <li key={i} className="flex items-center gap-3">
+                      <div className="w-2 h-2 rounded-full"></div>
                       {item}
                     </li>
                   ))}
