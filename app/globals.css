@@ -26,6 +26,7 @@ body {
 }
 #bone-muscle {
   background-image: url('/images/backpain.webp');
+  color: black;
 }
 #metabolism-digestion {
   background-image: url('/images/stomach.avif');
@@ -35,11 +36,14 @@ body {
   background-color: #fff3e0;
   background-image: url('/images/respiratory.jpg');
   background-position: center;
+  color: black;
 }
 #special-treatments {
   background-color: #fce4ec;
   background-image: url('/images/headache.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:contain;
+  background-size:auto;
+  padding: 15px;
+  color: black;
 }
