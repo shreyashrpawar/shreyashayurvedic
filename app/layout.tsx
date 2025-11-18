@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shreyash आयुर्वेदिक हॉस्पिटल",
-  description: "डॉ. दत्तात्रय मुतकुळे—प्रामाणिक आयुर्वेदिक उपचार, वैयक्तिकृत निदान व नॅचरोपॅथी. क्लिनिक किंवा तुमच्या घरावर सुलभ उपचार.",
+  description: "डॉ. दत्तात्रय मुटकुळे—प्रामाणिक आयुर्वेदिक उपचार, वैयक्तिकृत निदान व नॅचरोपॅथी. क्लिनिक किंवा तुमच्या घरावर सुलभ उपचार.",
 };
 
 export default function RootLayout({

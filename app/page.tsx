@@ -82,7 +82,7 @@ export default function AyurvedicHospital() {
       </h1>
 
       <p className="text-lg md:text-xl text-gray-600">
-        डॉ. दत्तात्रय मुतकुळे—प्रामाणिक आयुर्वेदिक उपचार, वैयक्तिकृत निदान व नॅचरोपॅथी. क्लिनिक किंवा तुमच्या घरावर सुलभ उपचार.
+        डॉ. दत्तात्रय मुटकुळे—प्रामाणिक आयुर्वेदिक उपचार, वैयक्तिकृत निदान व नॅचरोपॅथी. क्लिनिक किंवा तुमच्या घरावर सुलभ उपचार.
       </p>
 
       <div className="flex flex-wrap gap-4 items-center">
@@ -122,7 +122,7 @@ export default function AyurvedicHospital() {
             <Award className="w-7 h-7 text-white" />
           </div>
           <div>
-            <h4 className="text-lg font-bold text-gray-900">डॉ. दत्तात्रय मुतकुळे</h4>
+            <h4 className="text-lg font-bold text-gray-900">डॉ. दत्तात्रय मुटकुळे</h4>
             <p className="text-emerald-600 text-sm">वैद्य • आयुर्वेद तज्ञ</p>
           </div>
         </div>
