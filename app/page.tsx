@@ -310,7 +310,7 @@ export default function ShreyashHospital() {
       {/* Footer */}
       <footer className="bg-gray-950 text-gray-400 py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="mb-2">© 2024 श्रेयस आयुर्वेदिक रुग्णालय. सर्व हक्क राखीव.</p>
+          <p className="mb-2">© 2025 श्रेयश आयुर्वेदिक रुग्णालय. सर्व हक्क राखीव.</p>
           <p className="text-sm">नोंदणीकृत आयुर्वेदिक रुग्णालय - नोंदणी क्र: 1548</p>
         </div>
       </footer>
