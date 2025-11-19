@@ -268,6 +268,93 @@ export default function ShreyashHospital() {
         </div>
       </section>
 
+                  {/* Reviews Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">रुग्णांचे अनुभव</h2>
+            <p className="text-lg text-gray-600">आमच्या रुग्णांनी काय म्हटले आहे ते पहा</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-6 italic">"वैद्य दत्तात्रय मुटकुळे यांच्या उपचारामुळे माझ्या जुन्या गुडघेदुखीत खूप आराम मिळाला. घरी येऊन उपचार करण्याची सुविधा खूप चांगली आहे. खरोखरच आयुर्वेदिक उपचारांचा चमत्कार अनुभवला."</p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                  रा
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">राजेश पाटील</h4>
+                  <p className="text-sm text-gray-600">ठाणे</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-6 italic">"मधुमेहावर नियंत्रण मिळवण्यासाठी येथे उपचार घेतले. डॉक्टर साहेबांची औषधे आणि मार्गदर्शन उत्तम आहे. माझी शुगर लेव्हल आता नियंत्रणात आहे. खूप आभारी आहे."</p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                  सु
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">सुनीता देशमुख</h4>
+                  <p className="text-sm text-gray-600">भवानी नगर</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-6 italic">"पाठदुखी आणि सायटिका साठी अनेक ठिकाणी उपचार घेतले पण फायदा झाला नाही. येथे अॅक्युपंक्चर आणि आयुर्वेदिक औषधांनी चमत्कार केला. आता पूर्णपणे बरे झालो आहे."</p>
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
+                  वि
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">विकास शर्मा</h4>
+                  <p className="text-sm text-gray-600">गोकुळ नगर</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <div className="inline-block bg-blue-50 border-2 border-blue-200 rounded-lg p-6">
+              <div className="flex items-center justify-center gap-2 mb-2">
+                <div className="flex items-center gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-6 h-6 text-yellow-400 fill-current" viewBox="0 0 20 20">
+                      <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                    </svg>
+                  ))}
+                </div>
+                <span className="text-2xl font-bold text-gray-900">4.9/5</span>
+              </div>
+              <p className="text-gray-600">5000+ समाधानी रुग्णांकडून</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4">
